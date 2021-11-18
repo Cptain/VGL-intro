@@ -1,0 +1,61 @@
+@mixin flex-column-center {
+  display:         flex;
+  flex-flow:       column wrap;
+  justify-content: center;
+  align-items:     center;
+}
+
+@mixin flex-row-center-nw {
+  display:         flex;
+  flex-flow:       row nowrap;
+  justify-content: center;
+  align-items:     center;
+}
+
+@mixin smooth-transition {
+  transition: all 400ms ease-out;
+}
+
+@mixin hard-shadow-hover-transition {
+  transition: all 400ms ease-out;
+
+  &:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.35);
+  }
+}
+
+/// Fluid type scaling
+
+@mixin fluid-type($properties, $min-screen, $max-screen, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $min-screen) {
+      @each $property in $properties {
+        #{$property}: calc-interpolation($min-screen, $min-value, $max-screen, $max-value);
+      }
+    }
+
+    @media screen and (min-width: $max-screen) {
+      @each $property in $properties {
+        #{$property}: $max-value;
+      }
+    }
+  }
+}
+
+/// Requires the calc-interpolation function which can also be used independently
+
+@function calc-interpolation($min-screen, $min-value, $max-screen, $max-value) {
+		$a: ($max-value - $min-value) / ($max-screen - $min-screen);
+	$b: $min-value - $a * $min-screen;
+
+	$sign: "+";
+	@if ($b < 0) {
+		$sign: "-";
+		$b: abs($b);
+	}
+	@return calc(#{$a*100}vw #{$sign} #{$b});
+}

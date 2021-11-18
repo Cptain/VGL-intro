@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#footer {
+  padding: 40px 10px 5px;
+
+  .media-icons {
+    @include flex-row-center-nw;
+
+    a {
+      font-size: 2rem;
+      color: #7a7a7a;
+      margin: 0 10px;
+      transition: color 400ms ease-out;
+
+      &:hover {
+        color: #2a2a2a;
+      }
+    }
+  }
+
+  .copyright {
+    @include flex-column-center;
+    margin: 15px 0 3px;
+
+    h2 {
+      font-size: 0.8rem;
+      margin-bottom: 3px;
+    }
+
+    a {
+      color: #7a7a7a;
+      transition: color 400ms ease-out;
+
+      &:hover {
+        color: #2a2a2a;
+      }
+    }
+
+    span {
+      font-size: 0.6rem;
+      color: #7a7a7a;
+    }
+  }
+}

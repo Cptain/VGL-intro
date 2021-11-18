@@ -1,0 +1,268 @@
+@import '../abstracts/mixins';
+
+@media only screen and (min-width: 600px) {
+  .game-panel {
+    .button-box {
+      h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .info-container {
+    .icon-text {
+      h3 {
+        font-size: 2.63em;
+      }
+
+      span {
+        font-size: 1.85em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .flex-center {
+    li {
+      padding: 1px 10px;
+    }
+  }
+
+  .nav-bar {
+    a {
+      font: 600 0.7em "Montserrat", sans-serif;
+      line-height: 2;
+    }
+  }
+
+  .caption {
+    h1 {
+      font-size: 2.64em;
+    }
+
+    h6 {
+      font-size: 0.755em;
+    }
+  }
+
+  .game-panel .tooltiptext {
+    left:             -30%;
+    top:              -220px;
+
+    &:after {
+      top:          102%;
+      left:         50%;
+      margin-left:  -5px;
+      border-color: $black transparent transparent transparent;
+    }
+  }
+
+  .game-panel .tooltiptext-nba {
+      top: -70px;
+
+    &:after {
+      top: 107%;
+    }
+  }
+
+  .game-panel .tooltiptext-formula1 {
+      top: -70px;
+
+    &:after {
+      top: 107%;
+    }
+  }
+
+  .road-container {
+    .road-title {
+      bottom: -0.8em;
+    }
+  }
+
+  .partners-title {
+    top: -37px;
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .caption {
+    h1 {
+      font-size: 2em;
+    }
+
+    h6 {
+      font-size: 0.6em;
+    }
+  }
+
+  .road-container {
+    .road-title {
+      bottom: -0.8em;
+      transform: translateX(17vw);
+
+      h2 {
+        font-size: 2.5em;
+      }
+    }
+  }
+
+  .features-box {
+    h2 {
+      font-size: 1.8rem;
+      top: -26px;
+    }
+  }
+
+  .partners-title {
+    top: -28px;
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header-container {
+    .hero {
+      display:               grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows:    auto;
+      grid-gap:              100px;
+      margin:                0 70px;
+    }
+  }
+
+  .game-panel {
+    padding: 0.5rem 2rem;
+
+    .info {
+      font-size: 0.8rem;
+    }
+  }
+
+  .caption {
+    grid-column: 1 / 4;
+
+    h1 {
+      font-size: 5.28em;
+    }
+
+    h6 {
+      font-size: 1.51em;
+    }
+  }
+
+  .info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-position: center;
+
+    div:not(.last-panel) {
+      margin-bottom: 0;
+    }
+
+    .icon-box {
+      margin: 0;
+    }
+  }
+
+  .icon-box {
+    .icon {
+      max-height: 180px;
+    }
+
+    .icon-text {
+      margin: 10px 0 0;
+
+      h3 {
+        font-size: 2em;
+      }
+
+      span {
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  .features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .mockup-scene {
+    max-width: 50vw;
+  }
+
+  .features-box {
+    margin: 100px 0;
+  }
+
+  .partners-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: auto;
+
+    .icon {
+      width: auto;
+      margin: 10px 25px;
+      max-height: 114px;
+    }
+
+    .icon-portrait {
+      max-width: 150px;
+    }
+
+    .icon-landscape {
+      max-width: 179px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+  .header-container {
+    .hero {
+      grid-gap: 70px;
+      margin: 0 70px;
+    }
+  }
+
+  .game-panel {
+    padding: 1rem 2rem;
+
+    .info {
+      font-size: 1.2rem;
+    }
+  }
+
+  #soccer-svg {
+    top:   -3.3rem;
+    left:  -5.8rem;
+    width: 13rem;
+  }
+
+  #nba-svg {
+    top:   -4rem;
+    left:  -3.5rem;
+    width: 7rem;
+  }
+
+  #formula1-svg {
+    top:      -8.1rem;
+    left:     2.5rem;
+    width:    9rem;
+  }
+}

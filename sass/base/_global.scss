@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+/// Root element box model
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: hsl(255, 100%, 100%);
+  overflow-x: hidden;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin:     0;
+  padding:    0;
+}
+
+ul {
+  list-style-type: none;
+}

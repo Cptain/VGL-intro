@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/// Import every file
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/global';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/body';
+@import 'layout/footer';
+
+@import 'components/game-panels';
+@import 'components/features';
+@import 'components/partners';
+
+/// Responsive is placed last so it overwrites previous styles
+@import 'layout/responsive';

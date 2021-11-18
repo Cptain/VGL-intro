@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+
+@import '../abstracts/mixins';
+
+/// Makes headings uppercase
+
+html {
+  font: 400 16px "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $off-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {font-size: 7vw;}
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1.25rem;}
+h4 {font-size: 1rem;}
+h5 {font-size: 0.9rem;}
+h6 {font-size: 2vw;}
+span {font-size: 0.7rem;}
+
+
+.nav-bar {
+  a {
+    font: 400 1rem "Montserrat", sans-serif;
+  }
+}
+
+.caption {
+  color:      $off-white;
+  text-align: center;
+
+  span {
+    font-weight: 400;
+  }
+
+  h1 {
+    margin-top: -0.2em;
+  }
+}
+
+.game-panel {
+  .title-box {
+    text-align: center;
+  }
+
+  .game-title {
+    font: 600 1.8rem 'Roboto Condensed', sans-serif;
+    letter-spacing: -0.1rem;
+  }
+
+  .game-console {
+    font: 400 0.7rem 'Roboto Condensed', sans-serif;
+    color: $off-white;
+  }
+
+  svg {
+    font-size: 1rem;
+  }
+
+  .info {
+    font-size: 0.8rem;
+  }
+
+  .button-box {
+    text-align: center;
+
+    h2 {
+      font: 600 0.8rem "Montserrat", sans-serif;
+    }
+
+    h4 {
+      font: 400 0.6rem "Montserrat", sans-serif;
+    }
+  }
+}
+
+.road-title {
+  h2 {
+    font:           600 3rem 'Roboto Condensed';
+    letter-spacing: -0.1rem;
+    color:          white;
+    text-align:     center;
+    text-shadow:    -2px 3px 0 #424242;
+  }
+}
+
+.icon-text {
+  h3 {
+    font-weight:    900;
+    font-size:      7vw;
+  }
+
+  span {
+    font-weight:    400;
+    font-size:      4vw;
+  }
+}

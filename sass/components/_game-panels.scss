@@ -1,0 +1,135 @@
+@charset 'UTF-8';
+
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.game-panel {
+  @include flex-column-center;
+  @include smooth-transition;
+
+  background-color: $white;
+  border-radius:    1rem;
+
+  box-shadow:       0 4px 18px rgba(0, 0, 0, 0.2),
+                    0 4px 35px rgba(0, 0, 0, 0.15);
+
+  line-height:      1.4;
+
+  min-width:        250px;
+  max-width:        450px;
+  margin-bottom:    75px;
+
+  position:         relative;
+  padding:          0.5rem 1rem;
+
+  z-index:          2;
+
+  &:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.35);
+  }
+
+
+  .title-box {
+    @include flex-row-center-nw;
+  }
+
+  .game-console {
+    background-color: $off-black;
+    border-radius:    1rem;
+    margin-left:      0.5rem;
+    padding:          0.1rem 0.6rem;
+  }
+
+  .panel-list {
+    display:         inline-block;
+    margin:          20px 0;
+
+    svg {
+      color: $success;
+    }
+  }
+
+  .tooltip {
+    position:      relative;
+    display:       inline-block;
+    border-bottom: 1px dotted $black;
+    cursor:        help;
+
+    &:hover {
+      .tooltiptext {
+        opacity: 1;
+      }
+    }
+  }
+
+  .tooltiptext {
+    width:            130px;
+    background-color: $black;
+    color:            $white;
+    text-align:       center;
+    border-radius:    6px;
+    padding:          10px;
+    position:         absolute;
+    z-index:          10;
+    top:              -100px;
+    left:             110%;
+    opacity:          0;
+    transition:       all 400ms ease-out;
+
+    &:after {
+      content:      "";
+      position:     absolute;
+      top:          50%;
+      right:        100%;
+      margin-top:   -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent $black transparent transparent;
+    }
+  }
+
+  .tooltiptext-nba {
+    top: -25px;
+  }
+
+  .tooltiptext-formula1 {
+    top: -25px;
+  }
+
+  .button-box {
+    @include flex-row-center-nw;
+    margin-bottom: 5px;
+
+    .bttn-learn {
+      @include smooth-transition;
+      margin-top:  5px;
+      margin-left: 10px;
+      color:       lighten($off-black, 50%);
+
+      &:hover {
+        color: $off-black;
+      }
+    }
+  }
+}
+
+#soccer-svg {
+  position: absolute;
+  top:      -2.7rem;
+  left:     -3.6rem;
+  width:    9rem;
+}
+
+#nba-svg {
+  position: absolute;
+  top:      -2.3rem;
+  left:     -2rem;
+  width:    5rem;
+}
+
+#formula1-svg {
+  position: absolute;
+  top:      -8.1rem;
+  left:     2.5rem;
+  width:    9rem;
+}

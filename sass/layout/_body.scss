@@ -1,0 +1,53 @@
+@charset 'UTF-8';
+
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.road-container {
+  position:   relative;
+  max-width:  350px;
+  margin-top: -100px;
+  left:       50%;
+  transform:  translateX(-50%);
+
+  #road-svg {
+    transform: scaleX(1.3);
+  }
+
+  .road-title {
+    position:  absolute;
+    bottom:    -12px;
+    transform: translateX(16%);
+  }
+}
+
+.info-container {
+  @include hard-shadow-hover-transition;
+  background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+  box-shadow:            0 4px 18px rgba(0, 0, 0, 0.2),
+                         0 4px 35px rgba(0, 0, 0, 0.15);
+  background-size:       cover;
+  background-position:   top;
+  background-blend-mode: soft-light, normal;
+  color:                 $off-white;
+  padding:               50px 0;
+  text-shadow:           0 2px 2px rgba(0,0,0,0.55);
+  text-align:            center;
+
+  div:not(.last-panel) {
+    margin-bottom:  3.5rem;
+  }
+
+  .icon-box {
+    margin: 20px 0 10px;
+  }
+
+  .icon {
+    width:          50vw;
+    max-width:      250px;
+  }
+
+  .icon-text {
+    margin-top:     1rem;
+  }
+}

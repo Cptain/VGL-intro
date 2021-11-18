@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 591 187">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #707070;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="591" height="187"/>
+    </clipPath>
+  </defs>
+  <g id="footer-diagonal-lines" class="cls-2">
+    <g transform="translate(-0.5 -480.5)">
+      <line id="Line_1" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(23.5 -480.5)">
+      <line id="Line_1-2" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(47.5 -480.5)">
+      <line id="Line_1-3" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(71.5 -480.5)">
+      <line id="Line_1-4" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(95.5 -480.5)">
+      <line id="Line_1-5" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(119.5 -480.5)">
+      <line id="Line_1-6" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(143.5 -480.5)">
+      <line id="Line_1-7" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(167.5 -480.5)">
+      <line id="Line_1-8" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(191.5 -480.5)">
+      <line id="Line_1-9" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(215.5 -480.5)">
+      <line id="Line_1-10" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(239.5 -480.5)">
+      <line id="Line_1-11" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(263.5 -480.5)">
+      <line id="Line_1-12" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(287.5 -480.5)">
+      <line id="Line_1-13" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(311.5 -480.5)">
+      <line id="Line_1-14" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(335.5 -480.5)">
+      <line id="Line_1-15" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(359.5 -480.5)">
+      <line id="Line_1-16" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(383.5 -480.5)">
+      <line id="Line_1-17" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(407.5 -480.5)">
+      <line id="Line_1-18" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(431.5 -480.5)">
+      <line id="Line_1-19" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(455.5 -480.5)">
+      <line id="Line_1-20" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(479.5 -480.5)">
+      <line id="Line_1-21" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(503.5 -480.5)">
+      <line id="Line_1-22" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(527.5 -480.5)">
+      <line id="Line_1-23" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(551.5 -480.5)">
+      <line id="Line_1-24" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+    <g transform="translate(575.5 -480.5)">
+      <line id="Line_1-25" data-name="Line 1" class="cls-3" y1="187" x2="187" transform="translate(0.5 480.5)"/>
+    </g>
+  </g>
+</svg>

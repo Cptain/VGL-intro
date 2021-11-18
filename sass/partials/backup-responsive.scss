@@ -1,0 +1,1598 @@
+
+//
+// /*
+//   ##Device = Desktops
+//   ##Screen = 1281px to higher resolution desktops
+// */
+//
+// @media (min-width: 1281px) {
+//
+//   //CSS
+//
+// }
+//
+// /*
+//   ##Device = Laptops, Desktops
+//   ##Screen = B/w 1025px to 1280px
+// */
+//
+// @media (min-width: 1025px) and (max-width: 1280px) {
+//
+//   //CSS
+//
+// }
+//
+// /*
+//   ##Device = Tablets, Ipads (portrait)
+//   ##Screen = B/w 768px to 1024px
+// */
+//
+// @media (min-width: 768px) and (max-width: 1024px) {
+//
+//   //CSS
+//
+// }
+//
+// /*
+//   ##Device = Tablets, Ipads (landscape)
+//   ##Screen = B/w 768px to 1024px
+// */
+//
+// @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+//
+//   //CSS
+//   body {
+//     position: relative;
+//
+//     header {
+//       height:                1370px;
+//       position:              relative;
+//       background:            url('../img/hero-image-2.jpg'),         radial-gradient(1300px at 50% 50%, #FAD32B 0%, #FF613E 100%);
+//       background-position:   center;
+//       background-size:       cover;
+//       background-blend-mode: soft-light, normal;
+//
+//       &:after {
+//         content:          "";
+//         position:         absolute;
+//         bottom:           -120px;
+//         left:             -80px;
+//         width:            120%;
+//         height:           200px;
+//         border-radius:    50%;
+//         background-color: white;
+//       }
+//
+//       .diagonal-lines {
+//         width:  360px;
+//         height: 140px;
+//       }
+//
+//       .container {
+//         .menu {
+//           padding: 30px 0;
+//
+//           ul {
+//             li {
+//               padding: 5px 14px 6px;
+//
+//               a {
+//                 font-size: 0.9rem;
+//               }
+//             }
+//           }
+//
+//           .logo-container {
+//             margin: 0 25px;
+//           }
+//         }
+//       }
+//
+//       .hero {
+//         .caption {
+//           padding: 70px 0px 120px;
+//
+//           span {
+//             font-size: 1.1rem;
+//           }
+//
+//           h2 {
+//             font-size: 3.8rem;
+//             margin-top: -10px;
+//           }
+//         }
+//
+//         .game-panel {
+//           padding: 30px 40px;
+//
+//           .title-box {
+//             .game-title {
+//               font: 600 1.8rem'Roboto Condensed', sans-serif;
+//             }
+//
+//             .game-console {
+//               font: 400 0.6rem 'Roboto Condensed', sans-serif;
+//             }
+//           }
+//
+//           ul {
+//             li {
+//               .info {
+//                 font-size: 1.2rem;
+//                 color: #555;
+//               }
+//               .icon {
+//                 width: 24px;
+//                 height: 24px;
+//               }
+//             }
+//           }
+//
+//           #soccer-player {
+//             position: absolute;
+//             top:      -75px;
+//             left:     -100px;
+//             width:    280px;
+//           }
+//
+//           #basketball-player {
+//             position: absolute;
+//             top:      -65px;
+//             left:     -60px;
+//             width:    280px;
+//           }
+//
+//           #tennis-player {
+//             position: absolute;
+//             bottom: -30px;
+//             left:   -113px;
+//             width:  310px;
+//           }
+//
+//           .button-box {
+//             bottom: -16px;
+//
+//             a {
+//               .play-button {
+//                 h5 {
+//                   font-size: 1.2rem;
+//                   text-shadow: 0 1px 1px rgba(0,0,0,.50);
+//                 }
+//               }
+//
+//               .learn-button {
+//                 padding: 5px 10px;
+//                 border-radius: 5px;
+//
+//                 h6 {
+//                   font-size: 0.7rem;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//
+//     .road {
+//       position: relative;
+//       margin-top: 0;
+//       height: 500px;
+//
+//       .title-box {
+//         position: absolute;
+//         bottom: 148px;
+//         left: 50%;
+//         transform: translateX(-50%);
+//         z-index: 2;
+//
+//         h2 {
+//           font-family:    'Roboto Condensed';
+//           font-size:      2.7rem;
+//           letter-spacing: -0.05em;
+//           color:          white;
+//           text-shadow:    -2px 3px 0 #424242;
+//         }
+//       }
+//     }
+//
+//     .info-container {
+//       display:               grid;
+//       grid-template:         50% 50% / 50% 50%;
+//       position:              relative;
+//       margin-top:            -160px;
+//       padding:               20px;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.2),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//       color:                 $main-color;
+//       text-shadow:           0 2px 2px rgba(0,0,0,0.55);
+//       text-align:            center;
+//
+//       .icon {
+//         width: 175px;
+//         height: 175px;
+//       }
+//
+//       // svg {
+//       //   width: 135px;
+//       // }
+//
+//       h3 {
+//         font-weight:    600;
+//         font-size:      2em;
+//         letter-spacing: -1px;
+//         margin:         20px 0 0;
+//       }
+//
+//       span {
+//         font-weight: 400;
+//         font-size: 1.5em;
+//         letter-spacing: -1px;
+//         margin: 5px 0 20px;
+//       }
+//
+//       .countries {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .seasons {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .gcoins {
+//         margin: 50px 0 50px;
+//       }
+//
+//       .players {
+//         margin: 50px 0 50px;
+//       }
+//     }
+//
+//     .diagonal-lines {
+//       position: absolute;
+//       top: 0;
+//       left: -150px;
+//
+//       .line-stroke {
+//         stroke: $main-color;
+//         opacity: 0.5;
+//       }
+//     }
+//
+//     .features-container {
+//       @include flex-column-center;
+//       font-family: 'Roboto Condensed', sans-serif;
+//
+//       .mockup-scene {
+//           margin: 100px 0;
+//           max-width: 100vw;
+//           transform: scale(1.4);
+//       }
+//
+//       .features-box {
+//         position: relative;
+//         max-width: 350px;
+//         @include flex-column-center;
+//         border-radius: 15px;
+//         padding: 30px 21px 40px;
+//         text-align: center;
+//
+//         background:
+//           url('../img/12.jpg'), radial-gradient(700px at 62.78% 44.68%, #FAD32B 0%, #FF613E 100%);
+//         background-blend-mode: soft-light, normal;
+//         background-position: center;
+//         background-size: cover;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 8px 18px rgba(0, 0, 0, 0.15);
+//
+//           .icon-box {
+//             margin: 10px 0;
+//
+//             .icon {
+//               width: 150px;
+//             }
+//           }
+//
+//           .icon-text {
+//             font-size: 1rem;
+//             margin: 20px 0;
+//             color: #fff;
+//             text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+//
+//             p {
+//               margin-bottom: 10px;
+//             }
+//
+//             span {
+//               font-size: 0.8em;
+//             }
+//           }
+//
+//         h4 {
+//           position: absolute;
+//           top: -48px;
+//           font-size: 1.2rem;
+//           color: $side-color;
+//         }
+//
+//         h2 {
+//           position:    absolute;
+//           top:         -32px;
+//           font-size:   2.3rem;
+//           text-shadow: -2px 2px 0px white;
+//         }
+//
+//         svg {
+//           width: 115px;
+//         }
+//
+//         #cta {
+//           position: absolute;
+//           bottom:   -20px;
+//
+//           .btn-box {
+//             padding:       10px 20px;
+//             background:    $success;
+//             border-radius: 5px;
+//             transition:    all 400ms ease-out;
+//             box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//             &:hover {
+//               transform:  scale(1.1) translateY(-5px);
+//               box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//             }
+//
+//             .btn-cta {
+//               color:   $main-color;
+//               font:    600 1.3em 'Roboto Condensed', sans-serif;
+//             }
+//           }
+//         }
+//
+//         .btn-container {
+//             position: absolute;
+//             bottom:   -20px;
+//             @include flex-row-center-nw;
+//
+//           #app {
+//
+//             .icon {
+//               width: 30px;
+//             }
+//
+//             h5 {
+//               font-weight: 400;
+//               font-size: 0.6rem;
+//             }
+//
+//             span {
+//               font-weight: 600;
+//               font-size: 1rem;
+//             }
+//
+//             #btn-android {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//               margin-right: 10px;
+//             }
+//
+//             #btn-iphone {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//             }
+//
+//             .btn-box {
+//               padding:       10px 10px;
+//               border-radius: 10px;
+//               transition:    all 400ms ease-out;
+//               box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//               &:hover {
+//                 transform:  scale(1.1) translateY(-5px);
+//                 box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//               }
+//
+//               .btn-cta {
+//                 color:   $main-color;
+//                 font:    600 1.3em 'Roboto Condensed', sans-serif;
+//               }
+//
+//               .btn-text {
+//                 @include flex-column-center;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//
+//     .partners-container {
+//       @include flex-column-center;
+//       width:                 100%;
+//       padding:               50px 0;
+//       margin-top:            200px;
+//       position:              relative;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.1),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//
+//       .partners-title {
+//         position:    absolute;
+//         top:         -40px;
+//         font-size:   2.5rem;
+//         text-shadow: -2px 2px 0px white;
+//       }
+//
+//       .partners-box {
+//         @include flex-column-center;
+//         width:            200px;
+//         padding:          0 20px;
+//         background-color: #fff;
+//         border-radius:    15px;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 4px 18px rgba(0, 0, 0, 0.2);
+//
+//         .icon-box {
+//           margin: 20px 0;
+//
+//           img {
+//             width: 100%;
+//           }
+//         }
+//       }
+//     }
+//
+//     footer {
+//       padding: 40px 10px 5px;
+//
+//       .media-icons {
+//         @include flex-row-center-nw;
+//
+//         a {
+//           font-size: 2rem;
+//           color: #7a7a7a;
+//           margin: 0 10px;
+//           transition: color 400ms ease-out;
+//
+//           &:hover {
+//             color: #2a2a2a;
+//           }
+//         }
+//       }
+//
+//       .copyright {
+//         @include flex-column-center;
+//         margin: 15px 0 3px;
+//
+//          h2 {
+//            font-size: 0.8rem;
+//            margin-bottom: 3px;
+//
+//            a {
+//              color: #7a7a7a;
+//              transition: color 400ms ease-out;
+//
+//              &:hover {
+//                color: #2a2a2a;
+//              }
+//            }
+//          }
+//
+//          span {
+//            font-size: 0.6rem;
+//            color: #7a7a7a;
+//          }
+//       }
+//     }
+//   }
+// }
+//
+// /*
+//   ##Device = Low Resolution Tablets, Mobiles (Landscape)
+//   ##Screen = B/w 481px to 767px
+// */
+//
+// @media (min-width: 481px) and (max-width: 767px) {
+//
+//   //CSS
+//   body {
+//     position: relative;
+//
+//     header {
+//       height:                980px;
+//       position:              relative;
+//       background:            url('../img/hero-image-2.jpg'),         radial-gradient(1024.05px at 49.15% 33.39%, #FAD32B 0%, #FF613E 100%);
+//       background-position:   center;
+//       background-size:       cover;
+//       background-blend-mode: soft-light, normal;
+//
+//       &:after {
+//         content:          "";
+//         position:         absolute;
+//         bottom:           -120px;
+//         left:             -80px;
+//         width:            120%;
+//         height:           200px;
+//         border-radius:    50%;
+//         background-color: white;
+//       }
+//
+//       .diagonal-lines {
+//         width:    10%;
+//         height:   auto;
+//         position: absolute;
+//         top: 0;
+//         left: -150px;
+//
+//         .line-stroke {
+//           stroke: $main-color;
+//           opacity: 0.5;
+//         }
+//       }
+//
+//       .hero {
+//         .game-panel {
+//           #soccer-player {
+//             position: absolute;
+//             top:      -60px;
+//             left:     -85px;
+//             width:    220px;
+//           }
+//
+//           #basketball-player {
+//             position: absolute;
+//             top:      -55px;
+//             left:     -60px;
+//             width:    230px;
+//           }
+//
+//           #tennis-player {
+//             position: absolute;
+//             bottom:   -30px;
+//             left:     -85px;
+//             width:    220px;
+//           }
+//         }
+//       }
+//     }
+//
+//     .road {
+//       position: relative;
+//       margin-top: -130px;
+//       height: 500px;
+//
+//       .title-box {
+//         position: absolute;
+//         bottom: 148px;
+//         left: 50%;
+//         transform: translateX(-50%);
+//         z-index: 2;
+//
+//         h2 {
+//           font-family:    'Roboto Condensed';
+//           font-size:      2.7rem;
+//           letter-spacing: -0.05em;
+//           color:          white;
+//           text-shadow:    -2px 3px 0 #424242;
+//         }
+//       }
+//     }
+//
+//     .info-container {
+//       @include flex-column-center;
+//       position:              relative;
+//       margin-top:            -160px;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.2),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//       color:                 $main-color;
+//       text-shadow:           0 2px 2px rgba(0,0,0,0.55);
+//       text-align:            center;
+//
+//       svg {
+//         width: 135px;
+//       }
+//
+//       h3 {
+//         font-weight: 600;
+//         font-size: 2em;
+//         letter-spacing: -1px;
+//         margin: 20px 0 0;
+//       }
+//
+//       span {
+//         font-weight: 400;
+//         font-size: 1.5em;
+//         letter-spacing: -1px;
+//         margin: 5px 0 20px;
+//       }
+//
+//       .countries {
+//         margin: 100px 0 10px;
+//       }
+//
+//       .seasons {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .gcoins {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .players {
+//         margin: 50px 0 100px;
+//       }
+//     }
+//
+//     .features-container {
+//       @include flex-column-center;
+//       font-family: 'Roboto Condensed', sans-serif;
+//
+//       .mockup-scene {
+//           margin: 100px 0;
+//           max-width: 100vw;
+//           transform: scale(1.4);
+//       }
+//
+//       .features-box {
+//         position: relative;
+//         max-width: 350px;
+//         @include flex-column-center;
+//         border-radius: 15px;
+//         padding: 30px 21px 40px;
+//         text-align: center;
+//
+//         background:
+//           url('../img/12.jpg'), radial-gradient(700px at 62.78% 44.68%, #FAD32B 0%, #FF613E 100%);
+//         background-blend-mode: soft-light, normal;
+//         background-position: center;
+//         background-size: cover;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 8px 18px rgba(0, 0, 0, 0.15);
+//
+//           .icon-box {
+//             margin: 10px 0;
+//
+//             .icon {
+//               width: 150px;
+//             }
+//           }
+//
+//           .icon-text {
+//             font-size: 1rem;
+//             margin: 20px 0;
+//             color: #fff;
+//             text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+//
+//             p {
+//               margin-bottom: 10px;
+//             }
+//
+//             span {
+//               font-size: 0.8em;
+//             }
+//           }
+//
+//         h4 {
+//           position: absolute;
+//           top: -48px;
+//           font-size: 1.2rem;
+//           color: $side-color;
+//         }
+//
+//         h2 {
+//           position:    absolute;
+//           top:         -32px;
+//           font-size:   2.3rem;
+//           text-shadow: -2px 2px 0px white;
+//         }
+//
+//         svg {
+//           width: 115px;
+//         }
+//
+//         #cta {
+//           position: absolute;
+//           bottom:   -20px;
+//
+//           .btn-box {
+//             padding:       10px 20px;
+//             background:    $success;
+//             border-radius: 5px;
+//             transition:    all 400ms ease-out;
+//             box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//             &:hover {
+//               transform:  scale(1.1) translateY(-5px);
+//               box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//             }
+//
+//             .btn-cta {
+//               color:   $main-color;
+//               font:    600 1.3em 'Roboto Condensed', sans-serif;
+//             }
+//           }
+//         }
+//
+//         .btn-container {
+//             position: absolute;
+//             bottom:   -20px;
+//             @include flex-row-center-nw;
+//
+//           #app {
+//
+//             .icon {
+//               width: 30px;
+//             }
+//
+//             h5 {
+//               font-weight: 400;
+//               font-size: 0.6rem;
+//             }
+//
+//             span {
+//               font-weight: 600;
+//               font-size: 1rem;
+//             }
+//
+//             #btn-android {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//               margin-right: 10px;
+//             }
+//
+//             #btn-iphone {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//             }
+//
+//             .btn-box {
+//               padding:       10px 10px;
+//               border-radius: 10px;
+//               transition:    all 400ms ease-out;
+//               box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//               &:hover {
+//                 transform:  scale(1.1) translateY(-5px);
+//                 box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//               }
+//
+//               .btn-cta {
+//                 color:   $main-color;
+//                 font:    600 1.3em 'Roboto Condensed', sans-serif;
+//               }
+//
+//               .btn-text {
+//                 @include flex-column-center;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//
+//     .partners-container {
+//       @include flex-column-center;
+//       width:                 100%;
+//       padding:               50px 0;
+//       margin-top:            200px;
+//       position:              relative;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.1),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//
+//       .partners-title {
+//         position:    absolute;
+//         top:         -40px;
+//         font-size:   2.5rem;
+//         text-shadow: -2px 2px 0px white;
+//       }
+//
+//       .partners-box {
+//         @include flex-column-center;
+//         width:            200px;
+//         padding:          0 20px;
+//         background-color: #fff;
+//         border-radius:    15px;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 4px 18px rgba(0, 0, 0, 0.2);
+//
+//         .icon-box {
+//           margin: 20px 0;
+//
+//           img {
+//             width: 100%;
+//           }
+//         }
+//       }
+//     }
+//
+//     footer {
+//       padding: 40px 10px 5px;
+//
+//       .media-icons {
+//         @include flex-row-center-nw;
+//
+//         a {
+//           font-size: 2rem;
+//           color: #7a7a7a;
+//           margin: 0 10px;
+//           transition: color 400ms ease-out;
+//
+//           &:hover {
+//             color: #2a2a2a;
+//           }
+//         }
+//       }
+//
+//       .copyright {
+//         @include flex-column-center;
+//         margin: 15px 0 3px;
+//
+//          h2 {
+//            font-size: 0.8rem;
+//            margin-bottom: 3px;
+//
+//            a {
+//              color: #7a7a7a;
+//              transition: color 400ms ease-out;
+//
+//              &:hover {
+//                color: #2a2a2a;
+//              }
+//            }
+//          }
+//
+//          span {
+//            font-size: 0.6rem;
+//            color: #7a7a7a;
+//          }
+//       }
+//     }
+//   }
+// }
+//
+// /*
+//   ##Device = Large Smartphones (Portrait)
+//   ##Screen = B/w 401px to 479px
+// */
+//
+// @media (min-width: 401px) and (max-width: 480px) {
+//
+//   //CSS
+//   body {
+//     position: relative;
+//
+//     header {
+//       height: 980px;
+//       position: relative;
+//       background: url('../img/hero-image-2.jpg'), radial-gradient(1024.05px at 49.15% 33.39%, #FAD32B 0%, #FF613E 100%);
+//       background-position: center;
+//       background-size: cover;
+//       background-blend-mode: soft-light, normal;
+//
+//       &:after {
+//         content: "";
+//         position: absolute;
+//         bottom: -50px;
+//         left: -40px;
+//         width: 120%;
+//         height: 200px;
+//         border-radius: 50%;
+//         background-color: white;
+//       }
+//
+//       .diagonal-lines {
+//         width:    420px;
+//         height:   auto;
+//         position: absolute;
+//         top:      0;
+//         left:     -150px;
+//
+//         .line-stroke {
+//           stroke:  $main-color;
+//           opacity: 0.5;
+//         }
+//       }
+//
+//       .hero {
+//         .game-panel {
+//           #soccer-player {
+//             position: absolute;
+//             top: -60px;
+//             left: -85px;
+//             width: 220px;
+//           }
+//
+//           #basketball-player {
+//             position: absolute;
+//             top: -55px;
+//             left: -60px;
+//             width: 230px;
+//           }
+//
+//           #tennis-player {
+//             position: absolute;
+//             bottom: -30px;
+//             left: -85px;
+//             width: 220px;
+//           }
+//         }
+//       }
+//     }
+//
+//     .road {
+//       position: relative;
+//       margin-top: -80px;
+//       height: 400px;
+//
+//       .title-box {
+//         position: absolute;
+//         bottom: 150px;
+//         left: 50%;
+//         transform: translateX(-50%);
+//         z-index: 2;
+//
+//         h2 {
+//           font-family:    'Roboto Condensed';
+//           font-size:      2.1em;
+//           letter-spacing: -0.05em;
+//           color:          white;
+//           text-shadow:    -2px 3px 0 #424242;
+//         }
+//       }
+//     }
+//
+//     .info-container {
+//       @include flex-column-center;
+//       position:              relative;
+//       margin-top:            -160px;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.2),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//       color:                 $main-color;
+//       text-shadow: 0 2px 2px rgba(0,0,0,0.55);
+//       text-align:            center;
+//
+//       svg {
+//         width: 135px;
+//       }
+//
+//       h3 {
+//         font-weight: 600;
+//         font-size: 2em;
+//         letter-spacing: -1px;
+//         margin: 20px 0 0;
+//       }
+//
+//       span {
+//         font-weight: 400;
+//         font-size: 1.5em;
+//         letter-spacing: -1px;
+//         margin: 5px 0 20px;
+//       }
+//
+//       .countries {
+//         margin: 100px 0 10px;
+//       }
+//
+//       .seasons {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .gcoins {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .players {
+//         margin: 50px 0 100px;
+//       }
+//     }
+//
+//     .features-container {
+//       @include flex-column-center;
+//       font-family: 'Roboto Condensed', sans-serif;
+//
+//       .mockup-scene {
+//           margin: 100px 0;
+//           max-width: 100vw;
+//           transform: scale(1.4);
+//       }
+//
+//       .features-box {
+//         position: relative;
+//         max-width: 350px;
+//         @include flex-column-center;
+//         border-radius: 15px;
+//         padding: 30px 21px 40px;
+//         text-align: center;
+//
+//         background:
+//           url('../img/12.jpg'), radial-gradient(700px at 62.78% 44.68%, #FAD32B 0%, #FF613E 100%);
+//         background-blend-mode: soft-light, normal;
+//         background-position: center;
+//         background-size: cover;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 8px 18px rgba(0, 0, 0, 0.15);
+//
+//           .icon-box {
+//             margin: 10px 0;
+//
+//             .icon {
+//               width: 150px;
+//             }
+//           }
+//
+//           .icon-text {
+//             font-size: 1rem;
+//             margin: 20px 0;
+//             color: #fff;
+//             text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+//
+//             p {
+//               margin-bottom: 10px;
+//             }
+//
+//             span {
+//               font-size: 0.8em;
+//             }
+//           }
+//
+//         h4 {
+//           position: absolute;
+//           top: -48px;
+//           font-size: 1.2rem;
+//           color: $side-color;
+//         }
+//
+//         h2 {
+//           position:    absolute;
+//           top:         -32px;
+//           font-size:   2.3rem;
+//           text-shadow: -2px 2px 0px white;
+//         }
+//
+//         svg {
+//           width: 115px;
+//         }
+//
+//         #cta {
+//           position: absolute;
+//           bottom:   -20px;
+//
+//           .btn-box {
+//             padding:       10px 20px;
+//             background:    $success;
+//             border-radius: 5px;
+//             transition:    all 400ms ease-out;
+//             box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//             &:hover {
+//               transform:  scale(1.1) translateY(-5px);
+//               box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//             }
+//
+//             .btn-cta {
+//               color:   $main-color;
+//               font:    600 1.3em 'Roboto Condensed', sans-serif;
+//             }
+//           }
+//         }
+//
+//         .btn-container {
+//             position: absolute;
+//             bottom:   -20px;
+//             @include flex-row-center-nw;
+//
+//           #app {
+//
+//             .icon {
+//               width: 30px;
+//             }
+//
+//             h5 {
+//               font-weight: 400;
+//               font-size: 0.6rem;
+//             }
+//
+//             span {
+//               font-weight: 600;
+//               font-size: 1rem;
+//             }
+//
+//             #btn-android {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//               margin-right: 10px;
+//             }
+//
+//             #btn-iphone {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//             }
+//
+//             .btn-box {
+//               padding:       10px 10px;
+//               border-radius: 10px;
+//               transition:    all 400ms ease-out;
+//               box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//               &:hover {
+//                 transform:  scale(1.1) translateY(-5px);
+//                 box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//               }
+//
+//               .btn-cta {
+//                 color:   $main-color;
+//                 font:    600 1.3em 'Roboto Condensed', sans-serif;
+//               }
+//
+//               .btn-text {
+//                 @include flex-column-center;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//
+//     .partners-container {
+//       @include flex-column-center;
+//       width:                 100%;
+//       padding:               50px 0;
+//       margin-top:            150px;
+//       position:              relative;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.1),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//
+//       .partners-title {
+//         position:    absolute;
+//         top:         -27px;
+//         font-size:   1.7rem;
+//         text-shadow: -2px 2px 0px white;
+//       }
+//
+//       .partners-box {
+//         @include flex-column-center;
+//         width:            200px;
+//         padding:          0 20px;
+//         background-color: #fff;
+//         border-radius:    15px;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 4px 18px rgba(0, 0, 0, 0.2);
+//
+//         .icon-box {
+//           margin: 20px 0;
+//
+//           img {
+//             width: 100%;
+//           }
+//         }
+//       }
+//     }
+//
+//     footer {
+//       padding: 40px 10px 5px;
+//
+//       .media-icons {
+//         @include flex-row-center-nw;
+//
+//         a {
+//           font-size: 2rem;
+//           color: #7a7a7a;
+//           margin: 0 10px;
+//           transition: color 400ms ease-out;
+//
+//           &:hover {
+//             color: #2a2a2a;
+//           }
+//         }
+//       }
+//
+//       .copyright {
+//         @include flex-column-center;
+//         margin: 15px 0 3px;
+//
+//          h2 {
+//            font-size: 0.8rem;
+//            margin-bottom: 3px;
+//
+//            a {
+//              color: #7a7a7a;
+//              transition: color 400ms ease-out;
+//
+//              &:hover {
+//                color: #2a2a2a;
+//              }
+//            }
+//          }
+//
+//          span {
+//            font-size: 0.6rem;
+//            color: #7a7a7a;
+//          }
+//       }
+//     }
+//   }
+// }
+//
+// /*
+//   ##Device = Small Smartphones (Portrait)
+//   ##Screen = B/w 400px
+// */
+//
+// @media (max-width: 400px) {
+//
+//   //CSS
+//   body {
+//     position: relative;
+//
+//     header {
+//       height: 900px;
+//       position: relative;
+//       background: url('../img/hero-image-2.jpg'), radial-gradient(1024.05px at 49.15% 33.39%, #FAD32B 0%, #FF613E 100%);
+//       background-position: center;
+//       background-size: cover;
+//       background-blend-mode: soft-light, normal;
+//
+//       &:after {
+//         content: "";
+//         position: absolute;
+//         bottom: -50px;
+//         left: -40px;
+//         width: 120%;
+//         height: 200px;
+//         border-radius: 50%;
+//         background-color: white;
+//       }
+//
+//       .diagonal-lines {
+//         width:    360px;
+//         height:   140px;
+//         position: absolute;
+//         top:      0;
+//         left:     -150px;
+//
+//         .line-stroke {
+//           stroke: $main-color;
+//           opacity: 0.5;
+//         }
+//       }
+//
+//       .hero {
+//         .game-panel {
+//           font-size: 0.8em;
+//           max-width: 73vw;
+//         }
+//       }
+//     }
+//
+//     .road {
+//       position: relative;
+//       margin-top: -80px;
+//       height: 400px;
+//
+//       .title-box {
+//         position: absolute;
+//         bottom: 150px;
+//         left: 50%;
+//         transform: translateX(-50%);
+//         z-index: 2;
+//
+//         h2 {
+//           font-family:    'Roboto Condensed';
+//           font-size:      2.1em;
+//           letter-spacing: -0.05em;
+//           color:          white;
+//           text-shadow:    -2px 3px 0 #424242;
+//         }
+//       }
+//     }
+//
+//     .info-container {
+//       @include flex-column-center;
+//       position:              relative;
+//       margin-top:            -160px;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.2),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//       color:                 $main-color;
+//       text-shadow: 0 2px 2px rgba(0,0,0,0.55);
+//       text-align:            center;
+//
+//       svg {
+//         width: 135px;
+//       }
+//
+//       h3 {
+//         font-weight: 600;
+//         font-size: 2em;
+//         letter-spacing: -1px;
+//         margin: 20px 0 0;
+//       }
+//
+//       span {
+//         font-weight: 400;
+//         font-size: 1.5em;
+//         letter-spacing: -1px;
+//         margin: 5px 0 20px;
+//       }
+//
+//       .countries {
+//         margin: 100px 0 10px;
+//       }
+//
+//       .seasons {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .gcoins {
+//         margin: 50px 0 10px;
+//       }
+//
+//       .players {
+//         margin: 50px 0 100px;
+//       }
+//     }
+//
+//     .features-container {
+//       @include flex-column-center;
+//       font-family: 'Roboto Condensed', sans-serif;
+//
+//       .mockup-scene {
+//           margin: 100px 0;
+//           max-width: 100vw;
+//           transform: scale(1.4);
+//       }
+//
+//       .features-box {
+//         position: relative;
+//         max-width: 350px;
+//         @include flex-column-center;
+//         border-radius: 15px;
+//         padding: 30px 21px 40px;
+//         text-align: center;
+//
+//         background:
+//           url('../img/12.jpg'), radial-gradient(700px at 62.78% 44.68%, #FAD32B 0%, #FF613E 100%);
+//         background-blend-mode: soft-light, normal;
+//         background-position: center;
+//         background-size: cover;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 8px 18px rgba(0, 0, 0, 0.15);
+//
+//           .icon-box {
+//             margin: 10px 0;
+//
+//             .icon {
+//               width: 150px;
+//             }
+//           }
+//
+//           .icon-text {
+//             font-size: 1rem;
+//             margin: 20px 0;
+//             color: #fff;
+//             text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+//
+//             p {
+//               margin-bottom: 10px;
+//             }
+//
+//             span {
+//               font-size: 0.8em;
+//             }
+//           }
+//
+//         h4 {
+//           position: absolute;
+//           top: -48px;
+//           font-size: 1.2rem;
+//           color: $side-color;
+//         }
+//
+//         h2 {
+//           position:    absolute;
+//           top:         -32px;
+//           font-size:   2.3rem;
+//           text-shadow: -2px 2px 0px white;
+//         }
+//
+//         svg {
+//           width: 115px;
+//         }
+//
+//         #cta {
+//           position: absolute;
+//           bottom:   -20px;
+//
+//           .btn-box {
+//             padding:       10px 20px;
+//             background:    $success;
+//             border-radius: 5px;
+//             transition:    all 400ms ease-out;
+//             box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//             &:hover {
+//               transform:  scale(1.1) translateY(-5px);
+//               box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//             }
+//
+//             .btn-cta {
+//               color:   $main-color;
+//               font:    600 1.3em 'Roboto Condensed', sans-serif;
+//             }
+//           }
+//         }
+//
+//         .btn-container {
+//             position: absolute;
+//             bottom:   -20px;
+//             @include flex-row-center-nw;
+//
+//           #app {
+//
+//             .icon {
+//               width: 30px;
+//             }
+//
+//             h5 {
+//               font-weight: 400;
+//               font-size: 0.6rem;
+//             }
+//
+//             span {
+//               font-weight: 600;
+//               font-size: 1rem;
+//             }
+//
+//             #btn-android {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//               margin-right: 10px;
+//             }
+//
+//             #btn-iphone {
+//               @include flex-row-center-nw;
+//               background: $side-color;
+//             }
+//
+//             .btn-box {
+//               padding:       10px 10px;
+//               border-radius: 10px;
+//               transition:    all 400ms ease-out;
+//               box-shadow:    0px 2px 3px rgba(0, 0, 0,.3);
+//
+//               &:hover {
+//                 transform:  scale(1.1) translateY(-5px);
+//                 box-shadow: 0px 4px 12px rgba(0, 0, 0,.15);
+//               }
+//
+//               .btn-cta {
+//                 color:   $main-color;
+//                 font:    600 1.3em 'Roboto Condensed', sans-serif;
+//               }
+//
+//               .btn-text {
+//                 @include flex-column-center;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//
+//     .partners-container {
+//       @include flex-column-center;
+//       width:                 100%;
+//       padding:               50px 0;
+//       margin-top:            150px;
+//       position:              relative;
+//       background:            url('../img/02.png'), radial-gradient(700px at 50% 50%, #FAD32B 0%, #FF613E 180%);
+//       box-shadow:            0 4px 18px rgba(0, 0, 0, 0.1),
+//                              0 4px 35px rgba(0, 0, 0, 0.15);
+//       background-size:       cover;
+//       background-position:   top;
+//       background-blend-mode: soft-light, normal;
+//
+//       .partners-title {
+//         position:    absolute;
+//         top:         -27px;
+//         font-size:   1.7rem;
+//         text-shadow: -2px 2px 0px white;
+//       }
+//
+//       .partners-box {
+//         @include flex-column-center;
+//         width:            200px;
+//         padding:          0 20px;
+//         background-color: #fff;
+//         border-radius:    15px;
+//         box-shadow:
+//           0px 8px 35px rgba(0, 0, 0, 0.15),
+//           0px 4px 18px rgba(0, 0, 0, 0.2);
+//
+//         .icon-box {
+//           margin: 20px 0;
+//
+//           img {
+//             width: 100%;
+//           }
+//         }
+//       }
+//     }
+//
+//     footer {
+//       padding: 40px 10px 5px;
+//
+//       .media-icons {
+//         @include flex-row-center-nw;
+//
+//         a {
+//           font-size: 2rem;
+//           color: #7a7a7a;
+//           margin: 0 10px;
+//           transition: color 400ms ease-out;
+//
+//           &:hover {
+//             color: #2a2a2a;
+//           }
+//         }
+//       }
+//
+//       .copyright {
+//         @include flex-column-center;
+//         margin: 15px 0 3px;
+//
+//          h2 {
+//            font-size: 0.8rem;
+//            margin-bottom: 3px;
+//
+//            a {
+//              color: #7a7a7a;
+//              transition: color 400ms ease-out;
+//
+//              &:hover {
+//                color: #2a2a2a;
+//              }
+//            }
+//          }
+//
+//          span {
+//            font-size: 0.6rem;
+//            color: #7a7a7a;
+//          }
+//       }
+//     }
+//   }
+// }

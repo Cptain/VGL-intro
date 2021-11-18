@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+@import '../abstracts/mixins';
+
+.nav-bar {
+  padding:  20px 0;
+  position: relative;
+}
+
+/// Centers all elements
+.flex-center {
+  @include flex-row-center-nw;
+
+  ul {
+    list-style-type: none;
+  }
+
+  /// Styling for the navigation buttons
+  li {
+    margin:          0 10px 0 5px;
+    padding:         5px 10px;
+    background:      $off-black;
+    border-radius:   5px;
+    box-shadow:      0 2px 4px rgba(0,0,0,0.35);
+    @include smooth-transition;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+  }
+
+  /// Styling for logo
+  .logo {
+    max-width:         25vw;
+    margin-right:      10px;
+  }
+}
